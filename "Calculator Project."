@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file for styling -->
+    <title>My Projects</title>
+</head>
+<body>
+
+<!-- Your existing content -->
+
+<!-- New project section -->
+<section class="project">
+    <h2>Calculator Project</h2>
+    <img src="calculator-screenshot.png" alt="Calculator Project Screenshot">
+    <p>
+        This project is a simple calculator that performs basic arithmetic operations.
+        It was created as part of a coding exercise to improve my JavaScript skills.
+    </p>
+    <a href="https://github.com/your-username/calculator-project" target="_blank">View on GitHub</a>
+</section>
+
+<!-- More projects or content -->
+
+</body>
+</html>
+
+
+/* styles.css */
+
+.project {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.project img {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    height: auto;
+}
+
+.project a {
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #007bff;
+}
